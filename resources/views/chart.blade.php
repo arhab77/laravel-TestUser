@@ -27,7 +27,7 @@
             fetch('/Production')
                 .then(response => response.json())
                 .then(data => {
-                // console.log(data);
+                console.log(data);
                 // console.log(data.actual[0]);
                 Chart.register(ChartDataLabels);
                 var ctx = document.getElementById('myChart').getContext('2d');
